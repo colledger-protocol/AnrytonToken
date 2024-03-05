@@ -1,0 +1,3590 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xFa33Dbf425b2BC58917cC101793C45c0E26c700c",
+      "txHash": "0x1ff851634882e9664f3479027e07e0875d237634cc16ed2ad8a3d0a1e7391c21",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x20a295A8Bd8C4705c7563636d79D00077Fd495C5",
+      "txHash": "0x36f150e6c560f6e478f3f6858a79d570e6149216ec1a36ca7e4764d6187ac3ab",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0b4AC505259F4d8F9872b625d27592820e669165",
+      "txHash": "0x1d9a0912f8e5278586fc1836ecc2119e94cb2609631e5cea82958bac50501ba1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2dd6A1916d346703c5DEf73279403B22Bd620523",
+      "txHash": "0x8d7c279ebee389846779d06c5742c33940bd61b45849fed198c77e8abd5fdf15",
+      "kind": "uups"
+    },
+    {
+      "address": "0x2A274c8BEc0B5b06c07824f77760c5511e2bcD97",
+      "txHash": "0xf2b23dcb1fc9149f8adadbdcf3cff39df6e716cf1683d19fff4bcbd1e6d98051",
+      "kind": "uups"
+    },
+    {
+      "address": "0xDE45806B71E13414693668DbD83c921394744970",
+      "txHash": "0x8907dffb6044bb4c02d28d537016d563fae72b342f2222ce207c37c9a9ea1673",
+      "kind": "uups"
+    },
+    {
+      "address": "0xb69e65c7b514b5782A83c5E1152C71d2F1C1c271",
+      "txHash": "0x60ae784addea59bf0073ae43d19c797096cadb9851221be343bec8ccd489fef8",
+      "kind": "uups"
+    },
+    {
+      "address": "0xD1aea8A56Ad3562531e04cAC6138D871f894c895",
+      "txHash": "0xb61a9882285d7e547ecbd4fc4879e71c673aff5bfef7da16fe60bc2454ffc938",
+      "kind": "uups"
+    },
+    {
+      "address": "0x9efCBc2cE3520e77d057060ca9D793CcCC0fEc64",
+      "txHash": "0x6a4101f12d188ec9427ad3a51e7df93df5cbc688e1859f31b045c45aadcab8fe",
+      "kind": "uups"
+    },
+    {
+      "address": "0x6b765BdA813C3299034AE6DD4186c20196252A4B",
+      "txHash": "0x122fdfc073820575e6c7f241aba7cb332d668d3549cbbb8e75e469edc2bbd340",
+      "kind": "uups"
+    },
+    {
+      "address": "0x0625633350Ef46b38D587574d06629223927d07c",
+      "txHash": "0x2d4acf4efa5f79cb1b212a8112a15dbcf69c799971ee00dd90fbc2249b4407f6",
+      "kind": "uups"
+    },
+    {
+      "address": "0x82AAFC3189DF97Ea3228C32433f4c57D5f64a3fF",
+      "txHash": "0xee28832f15cc9ae69f59c338da435d69a1e3e8cbf0e53f7dd8beeb790ccbd637",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "e84ff147e1c02fe69c51a9f8ff393d90138f185c81abcb0d432c289515071d0a": {
+      "address": "0x493850b6D7197d5D461dC728FcaEeA9Df98E3adC",
+      "txHash": "0x1e4efefcaf8870b96c2f9d136101518da59b0c6cbccab4d6b1dadce36b0df529",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "latestSale",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:7"
+          },
+          {
+            "label": "mintingCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:8"
+          },
+          {
+            "label": "_FRIEND_FAMILY",
+            "offset": 1,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:10"
+          },
+          {
+            "label": "_PRIVATE_SALE",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:11"
+          },
+          {
+            "label": "_PUBLIC_SALE",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:12"
+          },
+          {
+            "label": "_TEAM",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:13"
+          },
+          {
+            "label": "_RESERVES",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:14"
+          },
+          {
+            "label": "_STORAGE_MINTING_ALLOCATION",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:15"
+          },
+          {
+            "label": "_GRANTS_REWARD",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:16"
+          },
+          {
+            "label": "_MARKETTING",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:17"
+          },
+          {
+            "label": "_ADVISORS",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:18"
+          },
+          {
+            "label": "_LIQUIDITY_EXCHANGE_LISTING",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:19"
+          },
+          {
+            "label": "_STAKING",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:20"
+          },
+          {
+            "label": "mintedSale",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_mapping(t_uint256,t_struct(MintingSale)2637_storage)",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:28"
+          },
+          {
+            "label": "_gap",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:31"
+          },
+          {
+            "label": "assignedWalletToSale",
+            "offset": 0,
+            "slot": "63",
+            "type": "t_mapping(t_string_memory_ptr,t_address)",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:28"
+          },
+          {
+            "label": "mintedWalletSupply",
+            "offset": 0,
+            "slot": "64",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:29"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ERC20Storage)198_storage": {
+            "label": "struct ERC20Upgradeable.ERC20Storage",
+            "members": [
+              {
+                "label": "_balances",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_allowances",
+                "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "_totalSupply",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "_symbol",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(InitializableStorage)64_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)14_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_mapping(t_string_memory_ptr,t_address)": {
+            "label": "mapping(string => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(string => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(MintingSale)2637_storage)": {
+            "label": "mapping(uint256 => struct AnrytonStorage.MintingSale)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MintingSale)2637_storage": {
+            "label": "struct AnrytonStorage.MintingSale",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "supply",
+                "type": "t_uint160",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "walletAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint160": {
+            "label": "uint160",
+            "numberOfBytes": "20"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.ERC20": [
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:38",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_allowances",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:40",
+              "offset": 0,
+              "slot": "1"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_totalSupply",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42",
+              "offset": 0,
+              "slot": "2"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_name",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44",
+              "offset": 0,
+              "slot": "3"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_symbol",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:45",
+              "offset": 0,
+              "slot": "4"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "87b7e571b643aea19f48fe40995ca1ff72945b53a21e1a2c9a1ec902fe6cf458": {
+      "address": "0xDE562edac28b5D8Dc1a2cAC90c0DFB19ece0745a",
+      "txHash": "0x4eff78f7bdd8bff4220d151c767eb06666a924edea0272e15c6a286c7f2d627f",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "_latestSale",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:17"
+          },
+          {
+            "label": "mintingCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:18"
+          },
+          {
+            "label": "assignedWalletToSale",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_string_memory_ptr,t_address)",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:21"
+          },
+          {
+            "label": "mintedWalletSupply",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:22"
+          },
+          {
+            "label": "mintedSale",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_uint256,t_struct(MintingSale)1432_storage)",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:23"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ERC20Storage)144_storage": {
+            "label": "struct ERC20Upgradeable.ERC20Storage",
+            "members": [
+              {
+                "label": "_balances",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_allowances",
+                "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "_totalSupply",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "_symbol",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(InitializableStorage)64_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)14_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_mapping(t_string_memory_ptr,t_address)": {
+            "label": "mapping(string => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(string => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(MintingSale)1432_storage)": {
+            "label": "mapping(uint256 => struct Anryton.MintingSale)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MintingSale)1432_storage": {
+            "label": "struct Anryton.MintingSale",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "supply",
+                "type": "t_uint160",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "walletAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint160": {
+            "label": "uint160",
+            "numberOfBytes": "20"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.ERC20": [
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:38",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_allowances",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:40",
+              "offset": 0,
+              "slot": "1"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_totalSupply",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42",
+              "offset": 0,
+              "slot": "2"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_name",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44",
+              "offset": 0,
+              "slot": "3"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_symbol",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:45",
+              "offset": 0,
+              "slot": "4"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "dfd9d7330b3596be19db08b4089601e5d2dfde83d7357f658db4667cdb01b7e7": {
+      "address": "0x726f78A14104E0f269213Cc8a2EDAd4EA7F88B60",
+      "txHash": "0x79b221b1c0be42b75ca3e88d6cce0d582ee2cc4508421c245efc221416cafae0",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "_latestSale",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:18"
+          },
+          {
+            "label": "mintingCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:19"
+          },
+          {
+            "label": "assignedWalletToSale",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_string_memory_ptr,t_address)",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:22"
+          },
+          {
+            "label": "mintedWalletSupply",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:23"
+          },
+          {
+            "label": "mintedSale",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_uint256,t_struct(MintingSale)2682_storage)",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:24"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ERC20Storage)198_storage": {
+            "label": "struct ERC20Upgradeable.ERC20Storage",
+            "members": [
+              {
+                "label": "_balances",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_allowances",
+                "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "_totalSupply",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "_symbol",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(InitializableStorage)64_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)14_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_mapping(t_string_memory_ptr,t_address)": {
+            "label": "mapping(string => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(string => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(MintingSale)2682_storage)": {
+            "label": "mapping(uint256 => struct Anryton.MintingSale)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MintingSale)2682_storage": {
+            "label": "struct Anryton.MintingSale",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "supply",
+                "type": "t_uint160",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "walletAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint160": {
+            "label": "uint160",
+            "numberOfBytes": "20"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.ERC20": [
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:38",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_allowances",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:40",
+              "offset": 0,
+              "slot": "1"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_totalSupply",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42",
+              "offset": 0,
+              "slot": "2"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_name",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44",
+              "offset": 0,
+              "slot": "3"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_symbol",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:45",
+              "offset": 0,
+              "slot": "4"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "51eb9a1b253418f49f33006206a3e84620b0814064cb3a9862415db98e191c7a": {
+      "address": "0xA4111655f0Ac1698fECc89ba5F36Bb2a75b5E524",
+      "txHash": "0x9840571dea2866d757a001e9184c333498b09925b650e9abe3a011e800a138a5",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "latestSale",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:7"
+          },
+          {
+            "label": "mintingCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:8"
+          },
+          {
+            "label": "_FRIEND_FAMILY",
+            "offset": 1,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:10"
+          },
+          {
+            "label": "_PRIVATE_SALE",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:11"
+          },
+          {
+            "label": "_PUBLIC_SALE",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:12"
+          },
+          {
+            "label": "_TEAM",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:13"
+          },
+          {
+            "label": "_RESERVES",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:14"
+          },
+          {
+            "label": "_STORAGE_MINTING_ALLOCATION",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:15"
+          },
+          {
+            "label": "_GRANTS_REWARD",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:16"
+          },
+          {
+            "label": "_MARKETTING",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:17"
+          },
+          {
+            "label": "_ADVISORS",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:18"
+          },
+          {
+            "label": "_LIQUIDITY_EXCHANGE_LISTING",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:19"
+          },
+          {
+            "label": "_STAKING",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:20"
+          },
+          {
+            "label": "mintedSale",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_mapping(t_uint256,t_struct(MintingSale)2387_storage)",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:28"
+          },
+          {
+            "label": "_gap",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:31"
+          },
+          {
+            "label": "assignedWalletToSale",
+            "offset": 0,
+            "slot": "63",
+            "type": "t_mapping(t_string_memory_ptr,t_address)",
+            "contract": "AnrytonFake",
+            "src": "contracts/Anryton.sol:28"
+          },
+          {
+            "label": "mintedWalletSupply",
+            "offset": 0,
+            "slot": "64",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))",
+            "contract": "AnrytonFake",
+            "src": "contracts/Anryton.sol:29"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ERC20Storage)198_storage": {
+            "label": "struct ERC20Upgradeable.ERC20Storage",
+            "members": [
+              {
+                "label": "_balances",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_allowances",
+                "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "_totalSupply",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "_symbol",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(InitializableStorage)64_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)14_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_mapping(t_string_memory_ptr,t_address)": {
+            "label": "mapping(string => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(string => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(MintingSale)2387_storage)": {
+            "label": "mapping(uint256 => struct AnrytonStorage.MintingSale)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MintingSale)2387_storage": {
+            "label": "struct AnrytonStorage.MintingSale",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "supply",
+                "type": "t_uint160",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "walletAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint160": {
+            "label": "uint160",
+            "numberOfBytes": "20"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.ERC20": [
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:38",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_allowances",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:40",
+              "offset": 0,
+              "slot": "1"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_totalSupply",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42",
+              "offset": 0,
+              "slot": "2"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_name",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44",
+              "offset": 0,
+              "slot": "3"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_symbol",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:45",
+              "offset": 0,
+              "slot": "4"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "7ee5a42c83ab4625d6ecee4e7870b6e416e3fe0026056cdebbf1725b342ec7ac": {
+      "address": "0xE326f52Cd200DDaa177D26FadFB98Bc43fcD97ec",
+      "txHash": "0x72c412477ef35618f88fcdbd396de1159e27e18fcd22099b4b1a7569df217c08",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "_latestSale",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:18"
+          },
+          {
+            "label": "mintingCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:19"
+          },
+          {
+            "label": "assignedWalletToSale",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_string_memory_ptr,t_address)",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:22"
+          },
+          {
+            "label": "mintedWalletSupply",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:23"
+          },
+          {
+            "label": "mintedSale",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_uint256,t_struct(MintingSale)2303_storage)",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:24"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ERC20Storage)198_storage": {
+            "label": "struct ERC20Upgradeable.ERC20Storage",
+            "members": [
+              {
+                "label": "_balances",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_allowances",
+                "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "_totalSupply",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "_symbol",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(InitializableStorage)64_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)14_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_mapping(t_string_memory_ptr,t_address)": {
+            "label": "mapping(string => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(string => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(MintingSale)2303_storage)": {
+            "label": "mapping(uint256 => struct Anryton.MintingSale)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MintingSale)2303_storage": {
+            "label": "struct Anryton.MintingSale",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "supply",
+                "type": "t_uint160",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "walletAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint160": {
+            "label": "uint160",
+            "numberOfBytes": "20"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.ERC20": [
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:38",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_allowances",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:40",
+              "offset": 0,
+              "slot": "1"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_totalSupply",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42",
+              "offset": 0,
+              "slot": "2"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_name",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44",
+              "offset": 0,
+              "slot": "3"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_symbol",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:45",
+              "offset": 0,
+              "slot": "4"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "b7fd14942aafd6b71849b3bae786cb8c228b9e252e1a24669bd8310e6a4e44c6": {
+      "address": "0x177c56d202D6c53bb6D064e614E3535C0758ae45",
+      "txHash": "0x3c8b1941e4fa6684970c71c5d23739d58c1de8b22f070613df5749879495e01a",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "_latestSale",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:18"
+          },
+          {
+            "label": "mintingCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:19"
+          },
+          {
+            "label": "assignedWalletToSale",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_string_memory_ptr,t_address)",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:22"
+          },
+          {
+            "label": "mintedWalletSupply",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:23"
+          },
+          {
+            "label": "mintedSale",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_uint256,t_struct(MintingSale)2303_storage)",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:24"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ERC20Storage)198_storage": {
+            "label": "struct ERC20Upgradeable.ERC20Storage",
+            "members": [
+              {
+                "label": "_balances",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_allowances",
+                "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "_totalSupply",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "_symbol",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(InitializableStorage)64_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)14_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_mapping(t_string_memory_ptr,t_address)": {
+            "label": "mapping(string => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(string => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(MintingSale)2303_storage)": {
+            "label": "mapping(uint256 => struct Anryton.MintingSale)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MintingSale)2303_storage": {
+            "label": "struct Anryton.MintingSale",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "supply",
+                "type": "t_uint160",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "walletAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint160": {
+            "label": "uint160",
+            "numberOfBytes": "20"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.ERC20": [
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:38",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_allowances",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:40",
+              "offset": 0,
+              "slot": "1"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_totalSupply",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42",
+              "offset": 0,
+              "slot": "2"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_name",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44",
+              "offset": 0,
+              "slot": "3"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_symbol",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:45",
+              "offset": 0,
+              "slot": "4"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "1bf6479ddf04bf5d587ed94f9329dd6c5ed4d2ef1dc821c049bf54e4310f19af": {
+      "address": "0x6317925640d97bCB17cD70f8363a030F7C135987",
+      "txHash": "0xb408b8965508f3d3300ad1a7a4f6915fe554a4c54c5ea435d434446078277432",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "_latestSale",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:18"
+          },
+          {
+            "label": "mintingCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:19"
+          },
+          {
+            "label": "assignedWalletToSale",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_string_memory_ptr,t_address)",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:22"
+          },
+          {
+            "label": "mintedWalletSupply",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:23"
+          },
+          {
+            "label": "mintedSale",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_uint256,t_struct(MintingSale)2303_storage)",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonNew.sol:24"
+          },
+          {
+            "label": "count",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "AnrytonV2",
+            "src": "contracts/AnrytonNew.sol:198"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ERC20Storage)198_storage": {
+            "label": "struct ERC20Upgradeable.ERC20Storage",
+            "members": [
+              {
+                "label": "_balances",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_allowances",
+                "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "_totalSupply",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "_symbol",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(InitializableStorage)64_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)14_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_mapping(t_string_memory_ptr,t_address)": {
+            "label": "mapping(string => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(string => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(MintingSale)2303_storage)": {
+            "label": "mapping(uint256 => struct Anryton.MintingSale)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MintingSale)2303_storage": {
+            "label": "struct Anryton.MintingSale",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "supply",
+                "type": "t_uint160",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "walletAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint160": {
+            "label": "uint160",
+            "numberOfBytes": "20"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.ERC20": [
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:38",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_allowances",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:40",
+              "offset": 0,
+              "slot": "1"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_totalSupply",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42",
+              "offset": 0,
+              "slot": "2"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_name",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44",
+              "offset": 0,
+              "slot": "3"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_symbol",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:45",
+              "offset": 0,
+              "slot": "4"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "367e8cc763ddd21fbded750edd1d3a523c59c0ce3366823913c8d1a476fa1231": {
+      "address": "0x27C04037b67cE8031630C927e19290208FBBff13",
+      "txHash": "0x73c39aaa51201a979278a47bda32e7642001c95df7c8d978c28c93cf431de049",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "latestSale",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:7"
+          },
+          {
+            "label": "mintingCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:8"
+          },
+          {
+            "label": "_FRIEND_FAMILY",
+            "offset": 1,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:10"
+          },
+          {
+            "label": "_PRIVATE_SALE",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:11"
+          },
+          {
+            "label": "_PUBLIC_SALE",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:12"
+          },
+          {
+            "label": "_TEAM",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:13"
+          },
+          {
+            "label": "_RESERVES",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:14"
+          },
+          {
+            "label": "_STORAGE_MINTING_ALLOCATION",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:15"
+          },
+          {
+            "label": "_GRANTS_REWARD",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:16"
+          },
+          {
+            "label": "_MARKETTING",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:17"
+          },
+          {
+            "label": "_ADVISORS",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:18"
+          },
+          {
+            "label": "_LIQUIDITY_EXCHANGE_LISTING",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:19"
+          },
+          {
+            "label": "_STAKING",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:20"
+          },
+          {
+            "label": "mintedSale",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_mapping(t_uint256,t_struct(MintingSale)2766_storage)",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:28"
+          },
+          {
+            "label": "_gap",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:31"
+          },
+          {
+            "label": "assignedWalletToSale",
+            "offset": 0,
+            "slot": "63",
+            "type": "t_mapping(t_string_memory_ptr,t_address)",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:28"
+          },
+          {
+            "label": "mintedWalletSupply",
+            "offset": 0,
+            "slot": "64",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:29"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ERC20Storage)198_storage": {
+            "label": "struct ERC20Upgradeable.ERC20Storage",
+            "members": [
+              {
+                "label": "_balances",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_allowances",
+                "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "_totalSupply",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "_symbol",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(InitializableStorage)64_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)14_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_mapping(t_string_memory_ptr,t_address)": {
+            "label": "mapping(string => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(string => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(MintingSale)2766_storage)": {
+            "label": "mapping(uint256 => struct AnrytonStorage.MintingSale)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MintingSale)2766_storage": {
+            "label": "struct AnrytonStorage.MintingSale",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "supply",
+                "type": "t_uint160",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "walletAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint160": {
+            "label": "uint160",
+            "numberOfBytes": "20"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.ERC20": [
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:38",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_allowances",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:40",
+              "offset": 0,
+              "slot": "1"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_totalSupply",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42",
+              "offset": 0,
+              "slot": "2"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_name",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44",
+              "offset": 0,
+              "slot": "3"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_symbol",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:45",
+              "offset": 0,
+              "slot": "4"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "a96106592e3b2ce202e3dda4326bd6f5279048ec1c3e64932d6fdb231a22edcf": {
+      "address": "0x9fd8ee2dEE108F5e90e428bE9c84F7871a462Be2",
+      "txHash": "0xe11257cb686f5d0cdd889b97f13eaee7437bd95de4a7261fdb7ba7ab2fe82e4d",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "latestSale",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:7"
+          },
+          {
+            "label": "mintingCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:8"
+          },
+          {
+            "label": "_FRIEND_FAMILY",
+            "offset": 1,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:10"
+          },
+          {
+            "label": "_PRIVATE_SALE",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:11"
+          },
+          {
+            "label": "_PUBLIC_SALE",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:12"
+          },
+          {
+            "label": "_TEAM",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:13"
+          },
+          {
+            "label": "_RESERVES",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:14"
+          },
+          {
+            "label": "_STORAGE_MINTING_ALLOCATION",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:15"
+          },
+          {
+            "label": "_GRANTS_REWARD",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:16"
+          },
+          {
+            "label": "_MARKETTING",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:17"
+          },
+          {
+            "label": "_ADVISORS",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:18"
+          },
+          {
+            "label": "_LIQUIDITY_EXCHANGE_LISTING",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:19"
+          },
+          {
+            "label": "_STAKING",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:20"
+          },
+          {
+            "label": "mintedSale",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_mapping(t_uint256,t_struct(MintingSale)2637_storage)",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:28"
+          },
+          {
+            "label": "_gap",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:31"
+          },
+          {
+            "label": "assignedWalletToSale",
+            "offset": 0,
+            "slot": "63",
+            "type": "t_mapping(t_string_memory_ptr,t_address)",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:28"
+          },
+          {
+            "label": "mintedWalletSupply",
+            "offset": 0,
+            "slot": "64",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:29"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ERC20Storage)198_storage": {
+            "label": "struct ERC20Upgradeable.ERC20Storage",
+            "members": [
+              {
+                "label": "_balances",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_allowances",
+                "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "_totalSupply",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "_symbol",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(InitializableStorage)64_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)14_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_mapping(t_string_memory_ptr,t_address)": {
+            "label": "mapping(string => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(string => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(MintingSale)2637_storage)": {
+            "label": "mapping(uint256 => struct AnrytonStorage.MintingSale)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MintingSale)2637_storage": {
+            "label": "struct AnrytonStorage.MintingSale",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "supply",
+                "type": "t_uint160",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "walletAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint160": {
+            "label": "uint160",
+            "numberOfBytes": "20"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.ERC20": [
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:38",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_allowances",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:40",
+              "offset": 0,
+              "slot": "1"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_totalSupply",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42",
+              "offset": 0,
+              "slot": "2"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_name",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44",
+              "offset": 0,
+              "slot": "3"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_symbol",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:45",
+              "offset": 0,
+              "slot": "4"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "db26be60d2786e7bdbdb1a342cba98f469e5ddcf0844e5f83559ad58b3d97395": {
+      "address": "0x1fb9fC836E2BAa7a6572a8D3bd31EbEFA9143974",
+      "txHash": "0x4165d032d752b168f17b92e56cb47498231d4560a46e8badf22e7334c9f93449",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "latestSale",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:7"
+          },
+          {
+            "label": "mintingCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:8"
+          },
+          {
+            "label": "_FRIEND_FAMILY",
+            "offset": 1,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:10"
+          },
+          {
+            "label": "_PRIVATE_SALE",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:11"
+          },
+          {
+            "label": "_PUBLIC_SALE",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:12"
+          },
+          {
+            "label": "_TEAM",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:13"
+          },
+          {
+            "label": "_RESERVES",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:14"
+          },
+          {
+            "label": "_STORAGE_MINTING_ALLOCATION",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:15"
+          },
+          {
+            "label": "_GRANTS_REWARD",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:16"
+          },
+          {
+            "label": "_MARKETTING",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:17"
+          },
+          {
+            "label": "_ADVISORS",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:18"
+          },
+          {
+            "label": "_LIQUIDITY_EXCHANGE_LISTING",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:19"
+          },
+          {
+            "label": "_STAKING",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:20"
+          },
+          {
+            "label": "mintedSale",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_mapping(t_uint256,t_struct(MintingSale)2634_storage)",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:28"
+          },
+          {
+            "label": "_gap",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:31"
+          },
+          {
+            "label": "assignedWalletToSale",
+            "offset": 0,
+            "slot": "63",
+            "type": "t_mapping(t_string_memory_ptr,t_address)",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:28"
+          },
+          {
+            "label": "mintedWalletSupply",
+            "offset": 0,
+            "slot": "64",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))",
+            "contract": "Anryton",
+            "src": "contracts/Anryton.sol:29"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ERC20Storage)198_storage": {
+            "label": "struct ERC20Upgradeable.ERC20Storage",
+            "members": [
+              {
+                "label": "_balances",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_allowances",
+                "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "_totalSupply",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "_symbol",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(InitializableStorage)64_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)14_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_mapping(t_string_memory_ptr,t_address)": {
+            "label": "mapping(string => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(string => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(MintingSale)2634_storage)": {
+            "label": "mapping(uint256 => struct AnrytonStorage.MintingSale)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MintingSale)2634_storage": {
+            "label": "struct AnrytonStorage.MintingSale",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "supply",
+                "type": "t_uint160",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "walletAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint160": {
+            "label": "uint160",
+            "numberOfBytes": "20"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.ERC20": [
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:38",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_allowances",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:40",
+              "offset": 0,
+              "slot": "1"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_totalSupply",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42",
+              "offset": 0,
+              "slot": "2"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_name",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44",
+              "offset": 0,
+              "slot": "3"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_symbol",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:45",
+              "offset": 0,
+              "slot": "4"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "5e3a28159162cc972093ab4978c58af0652fbd6588e8f5257fcf8ccc8fa0e27c": {
+      "address": "0xDD53C9826327693A640f064bE476b473dc748587",
+      "txHash": "0xaded039b3b51a7c8b5a9d4138f0b44314dc1aadc4cdef076aa9b015d4ac68794",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "_latestSale",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:7"
+          },
+          {
+            "label": "mintingCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:8"
+          },
+          {
+            "label": "_FRIEND_FAMILY",
+            "offset": 1,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:10"
+          },
+          {
+            "label": "_PRIVATE_SALE",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:11"
+          },
+          {
+            "label": "_PUBLIC_SALE",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:12"
+          },
+          {
+            "label": "_TEAM",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:13"
+          },
+          {
+            "label": "_RESERVES",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:14"
+          },
+          {
+            "label": "_STORAGE_MINTING_ALLOCATION",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:15"
+          },
+          {
+            "label": "_GRANTS_REWARD",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:16"
+          },
+          {
+            "label": "_MARKETTING",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:17"
+          },
+          {
+            "label": "_ADVISORS",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:18"
+          },
+          {
+            "label": "_LIQUIDITY_EXCHANGE_LISTING",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:19"
+          },
+          {
+            "label": "_STAKING",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_address",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:20"
+          },
+          {
+            "label": "mintedSale",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_mapping(t_uint256,t_struct(MintingSale)2666_storage)",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:28"
+          },
+          {
+            "label": "_gap",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "AnrytonStorage",
+            "src": "contracts/AnrytonStorage.sol:32"
+          },
+          {
+            "label": "assignedWalletToSale",
+            "offset": 0,
+            "slot": "63",
+            "type": "t_mapping(t_string_memory_ptr,t_address)",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonOld.sol:16"
+          },
+          {
+            "label": "mintedWalletSupply",
+            "offset": 0,
+            "slot": "64",
+            "type": "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))",
+            "contract": "Anryton",
+            "src": "contracts/AnrytonOld.sol:17"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ERC20Storage)198_storage": {
+            "label": "struct ERC20Upgradeable.ERC20Storage",
+            "members": [
+              {
+                "label": "_balances",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_allowances",
+                "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "_totalSupply",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "_symbol",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(InitializableStorage)64_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)14_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_mapping(t_string_memory_ptr,t_address)": {
+            "label": "mapping(string => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(string => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(MintingSale)2666_storage)": {
+            "label": "mapping(uint256 => struct AnrytonStorage.MintingSale)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MintingSale)2666_storage": {
+            "label": "struct AnrytonStorage.MintingSale",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "supply",
+                "type": "t_uint160",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "walletAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint160": {
+            "label": "uint160",
+            "numberOfBytes": "20"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.ERC20": [
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:38",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_allowances",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:40",
+              "offset": 0,
+              "slot": "1"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_totalSupply",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42",
+              "offset": 0,
+              "slot": "2"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_name",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44",
+              "offset": 0,
+              "slot": "3"
+            },
+            {
+              "contract": "ERC20Upgradeable",
+              "label": "_symbol",
+              "type": "t_string_storage",
+              "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:45",
+              "offset": 0,
+              "slot": "4"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
